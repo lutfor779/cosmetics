@@ -40,21 +40,24 @@ async function run() {
 
 		app.post("/products", async (req, res) => {
 			const data = req.body;
-			// const image = req.files.image;
-			// const imageData = image.data;
-			// const encodedImage = imageData.toString("base64");
-			// const imageBuffer = Buffer.from(encodedImage, "base64");
-			// const product = {
-			// 	picture: imageBuffer,
-			// };
-			// const result = await grooming.insertOne(product);
-			// res.json(result);
-			console.log(req.body, req.files);
-			res.json("file found");
+			const image = req.files.image;
+
+			const imageData = image.data;
+			const encodedImage = imageData.toString("base64");
+			const imageBuffer = Buffer.from(encodedImage, "base64");
+
+			const product = {
+				picture: imageBuffer,
+			};
+
+			const result = await grooming.insertOne(product);
+			console.log(`A document was inserted with the _id: ${result.insertedId}`);
+
+			res.json(result);
 		});
 	} finally {
 		// Ensures that the client will close when you finish/error
-		await client.close();
+		// await client.close();
 	}
 }
 run().catch(console.dir);
