@@ -1,4 +1,5 @@
 import React from "react";
+import PlusIcon from "../../Shared/PlusIcon";
 
 const SingleItem = ({ image }) => {
 	return (
@@ -26,8 +27,8 @@ const SingleItem = ({ image }) => {
 								adipisicing elit. Autem, quasi!
 							</p>
 
-							<div className="uppercase text-2xl">
-								<p>Discounts up to 50% in june</p>
+							<div className="uppercase text-xl flex gap-3 banner-link">
+								<PlusIcon /> Discounts up to 50% in june
 							</div>
 						</div>
 					</div>

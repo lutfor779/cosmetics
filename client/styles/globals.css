@@ -28,3 +28,12 @@ a {
 		background: black;
 	}
 }
+
+/* custom css */
+
+.plus-icon {
+	transition: all 0.3s ease-in-out;
+}
+.banner-link:hover .plus-icon {
+	transform: rotate(180deg);
+}
