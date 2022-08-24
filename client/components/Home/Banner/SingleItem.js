@@ -14,7 +14,7 @@ const SingleItem = ({ image }) => {
 		>
 			<div className="container mx-auto p-5 h-full">
 				<div className="flex items-center justify-center md:justify-start	h-full">
-					<div className="pt-28 pb-12 text-center md:text-left">
+					<div className="pt-28 2xl:pt-12 pb-12 text-center md:text-left">
 						<h1 className="text-3xl md:text-5xl xl:text-7xl">
 							New promotions! <br />
 							Discounts up to 50% <br />

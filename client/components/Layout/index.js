@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Footer from "../Shared/Footer";
-// import Header from "../Shared/Header";
+import Header from "../Shared/Header";
 
 const Layout = ({ title, children }) => {
 	return (
@@ -12,7 +12,7 @@ const Layout = ({ title, children }) => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			{/* <Header /> */}
+			<Header />
 
 			<main>{children}</main>
 
