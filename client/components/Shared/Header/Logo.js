@@ -10,7 +10,7 @@ const Logo = () => {
 				<Image src={logo} alt="conmetic" layout="responsive" />
 			</div>
 
-			<div className="w-40">
+			<div className="w-40 hidden sm:block">
 				<Image src={name} alt="conmetic" layout="responsive" />
 			</div>
 		</div>

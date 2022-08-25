@@ -5,28 +5,28 @@ import img2 from "../../../assets/images/homepage/bannercontainer/category2.jpg"
 import img3 from "../../../assets/images/homepage/bannercontainer/category3.jpg";
 import SingleBanner from "./SingleBanner";
 
-const SubBanner = () => {
-	const data = [
-		{
-			id: 1,
-			position: "start",
-			image: img1,
-			content: "Spring Summer Collection",
-		},
-		{
-			id: 2,
-			position: "center",
-			image: img2,
-			content: "Cute Clothers For Small People",
-		},
-		{
-			id: 3,
-			position: "end",
-			image: img3,
-			content: "S-S 2018 Fragrance Collection",
-		},
-	];
+const data = [
+	{
+		id: 1,
+		position: "start",
+		image: img1,
+		content: "Spring Summer Collection",
+	},
+	{
+		id: 2,
+		position: "center",
+		image: img2,
+		content: "New Arrivals Make Up Collection",
+	},
+	{
+		id: 3,
+		position: "end",
+		image: img3,
+		content: "S-S Awesome Fragrance Collection",
+	},
+];
 
+const SubBanner = () => {
 	return (
 		<div className="grid grid-cols-1 lg:grid-cols-3">
 			{data.map((item) => (
