@@ -3,9 +3,7 @@ import styles from "../../../../styles/Header.module.css";
 
 const SingleItem = ({ IconName, number, hoverData }) => {
 	return (
-		<li
-			className={`${styles.showOption} inline-block relative [&:nth-child(2)]:mx-3`}
-		>
+		<li className={`${styles.showOption} inline-block relative`}>
 			<IconName className="w-12 h-12 p-3 rounded-full bg-white shadow hover:bg-[#f85457] hover:text-white transition-all" />
 
 			{/* DISPLAY ON HOVER */}
