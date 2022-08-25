@@ -8,6 +8,8 @@ const SingleBanner = ({ details }) => {
 	return (
 		<div className="relative">
 			<Image src={image} alt="image" layout="responsive" />
+
+			{/* content */}
 			<div
 				className={`absolute top-0 w-full h-full flex justify-${position} items-${
 					position === "center" ? "start" : "center"
