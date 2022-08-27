@@ -5,7 +5,7 @@ const SingleBanner = ({ details }) => {
   const { image, content1, content2 } = details;
 
   return (
-    <div className="justify-between text-center">
+    <div className="justify-between text-center m-4">
       <Image src={image} alt="image" />
       <div className="text-center">
         <h4>{content1}</h4>
