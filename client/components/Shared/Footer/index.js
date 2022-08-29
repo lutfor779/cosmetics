@@ -2,7 +2,7 @@ import logo from "../../../assets/images/logo.png"
 import name from "../../../assets/images/name.png"
 import Image from "next/image";
 // import {FaCcPaypal } from "react-icons/cg";
-import { IoLocationSharp } from "react-icons/cg";
+// import { IoLocationSharp } from "react-icons/cg";
 
 const Footer = () => {
 	const footers=[
@@ -38,7 +38,7 @@ const Footer = () => {
 	return (
 		<div className="grid justify-items-center">
 		{/* ICONS */}
-		<IoLocationSharp />
+		{/* <div><IoLocationSharp className="h-6 w-6" /></div> */}
 			<div>
 				{/* 1st-part */}
 				<div className="grid grid-cols-4 gap-30 py-20">
@@ -85,9 +85,9 @@ const Footer = () => {
 				</div>
 
 			</div>
-				<hr className="bg-[#cacdd1]"/>
+				{/* <hr className="border-gray-500 mt-6"/> */}
 				{/* footer-bottom */}
-				<div class="flex">
+				<div className="flex">
 					<div className="mr-40 text-[#c7cdd2]">© 2020 themesground. All Rights Reserved.</div>
 					<div>
 					<ul className="flex gap-10">
