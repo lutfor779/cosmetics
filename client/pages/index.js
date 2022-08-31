@@ -1,3 +1,4 @@
+// import Drawer from "../components/Drawer";
 import Banner from "../components/Home/Banner";
 import SubBanner from "../components/Home/SubBanner";
 import Treatments from "../components/Home/Treatments";
@@ -7,6 +8,7 @@ export default function Home() {
 	return (
 		<Layout title={"Cosmetics Home"}>
 			<Banner />
+			{/* <Drawer/> */}
 			<SubBanner />
 			<Treatments />
 		</Layout>
