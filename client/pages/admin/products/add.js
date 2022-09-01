@@ -110,29 +110,87 @@ const Add = () => {
         {/* 2nd part */}
         <div className="col-span-2 bg-teal-400 mx-3 m-2">
           <div className="grid grid-cols-2">
-            <h1 className="block text-sm font-medium text-slate-700">
-              PRODUCT NAME
-            </h1>
-            <h1>SELECT CATEGORIES</h1>
+            <div className=" text-sm font-medium text-slate-700">
+              <h1>PRODUCT NAME</h1>
+              <input
+                type="text"
+                name="product name"
+                id="product name"
+                placeholder="product name"
+              />
+            </div>
+            <div>
+              <h1 className="text-sm font-medium">SELECT CATEGORIES</h1>
+              <input
+                type="text"
+                name="select categories"
+                id=" categories"
+                placeholder="categories"
+              />
+            </div>
           </div>
-          <h1 className="my-12">SLUG</h1>
-          <h1 className="my-12">SORT DESCRIPTION</h1>
-          <h1 className="my-12">COLORS</h1>
+          <div className="my-12 ">
+            <h1 className="text-sm font-medium">SLUG</h1>
+            <input
+              type="text"
+              name="select categories"
+              id=" categories"
+              placeholder="categories"
+            />
+          </div>
+          <div className="my-12">
+            <h1 className="text-sm font-medium">SORT DESCRIPTION</h1>
+            <input
+              type="text"
+              name="select categories"
+              id=" categories"
+              placeholder="categories"
+            />
+          </div>
+          <div className="my-12 text-sm font-medium">COLORS</div>
           <div className="grid grid-cols-2 ">
-            <h1 className="my-12">PRICE(in USD)</h1>
-            <h1 className="my-12">QUANTITY</h1>
+            <div className="my-12">
+              <h1 className="text-sm font-medium">PRICE(in USD)</h1>
+              <input
+                type="number"
+                name="select categories"
+                id=" categories"
+                placeholder="categories"
+              />
+            </div>
+            <div className="my-12">
+              <h1 className="text-sm font-medium">QUANTITY</h1>
+              <input
+                type="number"
+                name="select categories"
+                id=" categories"
+                placeholder="categories"
+              />
+            </div>
           </div>
-          <h1 className="my-12">FUL DETAIL</h1>
-          <h1 className="my-12">
-            PRODUCT TAGS(Type and make comma to separate tags)
-          </h1>
-          <button className="rounded-3xl my-3 bg-indigo-900">Submit</button>
-          <input
-            type="text"
-            name="product name"
-            id="product name"
-            placeholder="product name"
-          />
+          <div className="my-12">
+            <h1 className="text-sm font-medium">FUL DETAIL</h1>
+            <input
+              type="text"
+              name="select categories"
+              id=" categories"
+              placeholder="categories"
+            />
+          </div>
+          <div className="my-12">
+            <h1 className="text-sm font-medium">
+              PRODUCT TAGS(Type and make comma to separate tags)
+            </h1>
+            <input
+              type="text"
+              name="select categories"
+              id=" categories"
+              placeholder="categories"
+            />
+          </div>
+          <button className=" text-sm font-medium rounded-3xl px-3 bg-indigo-900 text-rose-50">
+            Submit
+          </button>
         </div>
       </div>
     </div>
