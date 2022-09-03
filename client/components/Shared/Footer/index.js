@@ -49,7 +49,7 @@ const Footer = () => {
 	]
   return (
     <section className="container m-auto p-5 py-12">
-      <div className="grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-2 gap-4 grid-cols-1">
         {/* 1st-part */}
         <div className='flex'>
          <ul>
@@ -64,8 +64,8 @@ const Footer = () => {
         </div>
         {/* 2nd-part */}
         <div>
-          <ul className='flex'>
-            <li className="bg-[#ebf1f4] hover:bg-[#f85457] hover:text-[#fff] text-[#445a69] p-5 rounded-full">
+          <ul className='grid lg:grid-cols-7 md:grid-cols-7 grid-cols-5 gap-y-4'>
+            <li className="bg-[#ebf1f4] hover:bg-[#f85457] hover:text-[#fff] text-[#445a69] p-5 rounded-full ml-5">
               <a href=""><FaFacebookF className="h-7 w-7" /></a>
             </li>
             <li className="bg-[#ebf1f4] hover:bg-[#f85457] hover:text-[#fff] text-[#445a69] p-5 rounded-full ml-5">
@@ -91,7 +91,7 @@ const Footer = () => {
       </div>
      <hr className='mt-20 bg-[#ebf1f4]'/>
       {/* footer-buttom */}
-          <div class="grid grid-cols-5 gap-4 mt-20">
+          <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 mt-20">
             <div className='col-span-2 flex items-center gap-1'>
               <div className="w-24">
                   <Image className='bg-contain' src={logo} alt="image" />
@@ -140,12 +140,12 @@ const Footer = () => {
       </div>
       <hr className='mt-20 bg-[#ebf1f4]'/>
       {/* footer-last-buttom */}
-      <div className="grid grid-cols-7 gap-3 mt-10">
+      <div className="grid lg:grid-cols-7 gap-3 mt-10">
         <div className='col-span-3'>
           <span className="text-[#c7cdd2]">© 2020 themesground. All Rights Reserved.</span>
         </div>
         <div>
-          <ul>
+          <ul className='md:align-center'>
             <li className="text-[#c7cdd2] hover:text-[#f85457]">
               <a href="">Shopify Themes</a>
             </li>
