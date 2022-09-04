@@ -2,20 +2,20 @@ import React from "react";
 
 const Add = () => {
   return (
-    <div className="container m-auto ">
+    <div className="mx-4 ">
       <h1 className="text-2xl m-4 font-medium">Add Product</h1>
-      <div className="grid  lg:grid-cols-3 gap-4 m-2 mb-8 sm:grid-cols-1">
-        <div className=" mt-20 ">
-          <div class="flex justify-center items-center w-full">
+      <div className="grid  lg:grid-cols-3 mx-6  mb-8 sm:grid-cols-1 justify-between ">
+        <div className=" mt-20  mr-4 ">
+          <div class=" ">
             <label
               for="dropzone-file"
               class="flex flex-col justify-center items-center w-full h-64 bg-gray-50 rounded-lg border-2 border-gray-300 border-dashed cursor-pointer dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600"
             >
-              <div class="flex flex-col justify-center items-center pt-5 pb-6">
+              <div class="m-3 pt-5 pb-6">
                 <p className="mb-2 text-sm text-gray-500 text-black font-bold text-5xl">
-                  765 * 850
+                  Click Here
                 </p>
-                <p>Please choose image according to the aspect ratio</p>
+                <p>Please Drag & Drop Select Product</p>
               </div>
               <input id="dropzone-file" type="file" class="hidden" />
             </label>
@@ -37,7 +37,7 @@ const Add = () => {
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="w-6 h-6"
+                      class="w-8 h-8"
                     >
                       <path
                         stroke-linecap="round"
@@ -45,8 +45,8 @@ const Add = () => {
                         d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
                       />
                     </svg>
-                    <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                      <span class="font-semibold">765 * 850</span>
+                    <p class="mb-2 text-2xl text-black dark:text-gray-400 font-semibold">
+                      Click Here
                     </p>
                   </div>
                   <input id="dropzone-file" type="file" class="hidden" />
@@ -69,7 +69,7 @@ const Add = () => {
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="w-6 h-6"
+                        class="w-8 h-8"
                       >
                         <path
                           stroke-linecap="round"
@@ -77,8 +77,8 @@ const Add = () => {
                           d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
                         />
                       </svg>
-                      <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <span class="font-semibold">765 * 850</span>
+                      <p class="mb-2 text-2xl text-black dark:text-gray-400 font-semibold">
+                        Click Here
                       </p>
                     </div>
                     <input id="dropzone-file" type="file" class="hidden" />
@@ -102,7 +102,7 @@ const Add = () => {
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="w-6 h-6"
+                        class="w-8 h-8"
                       >
                         <path
                           stroke-linecap="round"
@@ -110,8 +110,8 @@ const Add = () => {
                           d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
                         />
                       </svg>
-                      <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <span class="font-semibold">765 * 850</span>
+                      <p class="mb-2 text-2xl text-black dark:text-gray-400 font-semibold">
+                        Click Here
                       </p>
                     </div>
                     <input id="dropzone-file" type="file" class="hidden" />
@@ -120,12 +120,12 @@ const Add = () => {
               </div>
             </div>
           </div>
-          <div className="text-center grid grid-cols-2 m-4">
+          <div className="text-center grid grid-cols-2 m-4 gap-3">
             <div>
               <div>
                 <p className="text-center"></p>
 
-                <div class="flex justify-center items-center w-full">
+                <div class="flex justify-center items-center w-full ">
                   <label
                     for="dropzone-file"
                     class="flex flex-col justify-center items-center w-full h-64 bg-gray-50 rounded-lg border-2 border-gray-300 border-dashed cursor-pointer dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600"
@@ -137,7 +137,7 @@ const Add = () => {
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="w-6 h-6"
+                        class="w-8 h-8"
                       >
                         <path
                           stroke-linecap="round"
@@ -145,8 +145,8 @@ const Add = () => {
                           d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
                         />
                       </svg>
-                      <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <span class="font-semibold">765 * 850</span>
+                      <p class="mb-2 text-2xl text-black dark:text-gray-400 font-semibold">
+                        Click Here
                       </p>
                     </div>
                     <input id="dropzone-file" type="file" class="hidden" />
@@ -170,7 +170,7 @@ const Add = () => {
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="w-6 h-6"
+                        class="w-8 h-8"
                       >
                         <path
                           stroke-linecap="round"
@@ -178,8 +178,8 @@ const Add = () => {
                           d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
                         />
                       </svg>
-                      <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <span class="font-semibold">765 * 850</span>
+                      <p class="mb-2 text-2xl text-black dark:text-gray-400 font-semibold">
+                        Click Here
                       </p>
                     </div>
                     <input id="dropzone-file" type="file" class="hidden" />
@@ -191,10 +191,10 @@ const Add = () => {
         </div>
 
         {/* 2nd part */}
-        <div className="col-span-2  mx-3 m-2">
+        <div className="col-span-2  mx-3 m-2 lg:ml-12  ">
           <div className="grid grid-cols-2">
-            <div className=" text-sm font-medium text-slate-700">
-              <h1>PRODUCT NAME</h1>
+            <div className="  ml-4 font-medium  ">
+              <h1 className="text-xl">PRODUCT NAME</h1>
               <input
                 type="text"
                 name="product name"
@@ -202,13 +202,12 @@ const Add = () => {
                 placeholder="product name"
               />
             </div>
-            {/* <!-- component --> */}
+
             <div>
-              <div class="relative inline-flex self-center">
+              <div class="relative inline-flex self-center ml-4">
                 <svg
-                  class="text-white bg-purple-700 absolute top-0 right-0 m-2 pointer-events-none p-2 rounded"
+                  class="text-black bg-orange-800 absolute top-0 right-2 m-2 pointer-events-none p-2 rounded"
                   xmlns="http://www.w3.org/2000/svg"
-                  // xmlns:xlink="http://www.w3.org/1999/xlink"
                   width="40px"
                   height="40px"
                   viewBox="0 0 38 22"
@@ -241,15 +240,15 @@ const Add = () => {
                     </g>
                   </g>
                 </svg>
-                <select class="text-2xl font-bold  h-14 w-60 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none">
-                  <option>SELECT CATEGORIES</option>
-                  <option>Z-A</option>
+                <select class="text-xl font-medium  h-14 w-70 mx-14 pl-5   hover:border-gray-400 focus:outline-none appearance-none ">
+                  <option>Grooming</option>
+                  <option>Makeup</option>
                 </select>
               </div>
             </div>
           </div>
-          <div className="my-12 ">
-            <h1 className="text-sm font-medium">SLUG</h1>
+          <div className="my-12 ml-4 ">
+            <h1 className="text-xl font-medium">SLUG</h1>
             <input
               type="text"
               name="select categories"
@@ -257,8 +256,8 @@ const Add = () => {
               placeholder="categories"
             />
           </div>
-          <div className="my-12">
-            <h1 className="text-sm font-medium">SORT DESCRIPTION</h1>
+          <div className="my-12 ml-4">
+            <h1 className="text-xl font-medium">SORT DESCRIPTION</h1>
             <input
               type="text"
               name="select categories"
@@ -266,10 +265,10 @@ const Add = () => {
               placeholder="categories"
             />
           </div>
-          <div className="my-12 text-sm font-medium">COLORS</div>
+          <div className="my-12 text-xl font-medium ml-4">COLORS</div>
           <div className="grid grid-cols-2 ">
-            <div className="my-12">
-              <h1 className="text-sm font-medium">PRICE(in USD)</h1>
+            <div className="my-12 ml-4">
+              <h1 className="text-xl font-medium">PRICE(in USD)</h1>
               <input
                 type="number"
                 name="select categories"
@@ -277,8 +276,8 @@ const Add = () => {
                 placeholder="categories"
               />
             </div>
-            <div className="my-12">
-              <h1 className="text-sm font-medium">QUANTITY</h1>
+            <div className="my-12 ml-4">
+              <h1 className="text-xl font-medium">QUANTITY</h1>
               <input
                 type="number"
                 name="select categories"
@@ -287,8 +286,8 @@ const Add = () => {
               />
             </div>
           </div>
-          <div className="my-12">
-            <h1 className="text-sm font-medium">FUL DETAIL</h1>
+          <div className="my-12 ml-4">
+            <h1 className="text-xl font-medium">FUL DETAIL</h1>
             <input
               type="text"
               name="select categories"
@@ -296,8 +295,8 @@ const Add = () => {
               placeholder="categories"
             />
           </div>
-          <div className="my-12">
-            <h1 className="text-sm font-medium">
+          <div className="my-12 ml-4">
+            <h1 className="text-xl font-medium">
               PRODUCT TAGS(Type and make comma to separate tags)
             </h1>
             <input
@@ -307,7 +306,7 @@ const Add = () => {
               placeholder="categories"
             />
           </div>
-          <button className=" text-sm font-medium rounded-3xl px-3 bg-indigo-900 text-rose-50">
+          <button className=" text-2xl font-medium rounded-3xl px-3 bg-orange-800 text-rose-50 ml-4">
             Submit
           </button>
         </div>
